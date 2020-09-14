@@ -1,0 +1,4 @@
+&nbsp; = spaces
+&ensp; = 2 spaces
+&emsp; = 4 spaces (tab)
+<br> = line break
