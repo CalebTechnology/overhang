@@ -40,9 +40,9 @@
           <p>Here is the page to download behavior packs for personal use! Some are ports (direct or indirect) of the Java Edition <a href="https://www.vanillatweaks.net" target="_blank">Vanilla Tweaks</a>' Data Packs and Crafting Tweaks, while others are my own creations!</p>
           <p>I suggest downloading the mcaddon, which includes both the resources and behavior, but the option is there to download them separately if you choose.</p>
           <h5>Filter Packs: (coming soon)</h5>
-            <a class="btn btn-primary btn-lg" href="?tag=server_packs" role="button">Packs used on Overhang</a>
-            <a class="btn btn-primary btn-lg" href="?tag=vanilla_tweaks" role="button">Vanilla Tweaks Ports</a>
-            <a class="btn btn-primary btn-lg" href="?tag=creative" role="button">Creative Mode Packs</a>
+            <a class="btn btn-primary btn-lg" href="?tag=server_packs" role="button" download>Packs used on Overhang</a>
+            <a class="btn btn-primary btn-lg" href="?tag=vanilla_tweaks" role="button" download>Vanilla Tweaks Ports</a>
+            <a class="btn btn-primary btn-lg" href="?tag=creative" role="button" download>Creative Mode Packs</a>
         </div>
       </div>
       <div class="container">
