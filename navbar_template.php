@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+World Downloads<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <a class="navbar-brand" href="index.php">Overhang</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
           <hr>
           <a class="dropdown-item" href="downloads/resource_packs.php"><span class="fas fa-image"></span> Resource Packs</a>
           <a class="dropdown-item" href="downloads/behavior_packs.php"><span class="fas fa-code"></span> Behavior Packs</a>
-          <a class="dropdown-item" href="downloads/server_backups.php"><span class="fas fa-server"></span> Server Backups</a>
+          <a class="dropdown-item" href="downloads/world_downloads.php"><span class="fas globe-americas"></span> World Downloads</a>
         </div>
       </li>
     </ul>
