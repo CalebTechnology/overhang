@@ -36,7 +36,7 @@
     <main>
       <div class="jumbotron">
         <div class="container">
-          <h1 class="display-3">Behavior Packs</h1>
+          <h1 class="display-3">Resource Packs</h1>
           <p>Here is the page to download resource packs for personal use! Some are ports (direct or indirect) of the Java Edition <a href="https://www.vanillatweaks.net" target="_blank">Vanilla Tweaks</a>' Resource Packs, while others are my own creations!</p>
           <p>For resoure packs, there is only the mcpack download (because it's just 1 pack, no behaviors bundled with it)</p>
           <h5>Filter Packs: (coming soon)</h5>
