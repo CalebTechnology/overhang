@@ -106,8 +106,8 @@
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-            <h2>Server Backups</h2>
-            <p>Download server backups for nostalgia or testing. What did the terrain look like before North Korea was built? What was the old Nether like? Will this redstone contraption fit inside my house?? Some backups are available from singleplayer and realms.</p>
+            <h2>World Downloads</h2>
+            <p>Download worlds to see the original Overhang in its natural beauty, or to test a new design on an old backup of the current server! Backups occur often, but I will upload them when there's a milestone such as a community project or Minecraft update.</p>
             <p><a class="btn btn-secondary" href="downloads/server_backups.php" role="button">View Server Backups &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
