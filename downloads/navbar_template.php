@@ -38,7 +38,7 @@
           <hr>
           <a class="dropdown-item" href="resource_packs.php"><span class="fas fa-image"></span> Resource Packs</a>
           <a class="dropdown-item" href="behavior_packs.php"><span class="fas fa-code"></span> Behavior Packs</a>
-          <a class="dropdown-item" href="world_downloads.php"><span class="fas globe-americas"></span> World Downloads</a>
+          <a class="dropdown-item" href="world_downloads.php"><span class="fas fa-globe-americas"></span> World Downloads</a>
         </div>
       </li>
     </ul>
