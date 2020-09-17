@@ -34,11 +34,11 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Downloads</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" href="downloads/"><span class="fas fa-download"></span> Downloads Home</a>
+          <a class="dropdown-item" href="../downloads/"><span class="fas fa-download"></span> Downloads Home</a>
           <hr>
           <a class="dropdown-item" href="resource_packs.php"><span class="fas fa-image"></span> Resource Packs</a>
           <a class="dropdown-item" href="behavior_packs.php"><span class="fas fa-code"></span> Behavior Packs</a>
-          <a class="dropdown-item" href="server_backups.php"><span class="fas fa-server"></span> Server Backups</a>
+          <a class="dropdown-item" href="world_downloads.php"><span class="fas fa-globe-americas"></span> World Downloads</a>
         </div>
       </li>
     </ul>
