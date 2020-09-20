@@ -53,9 +53,6 @@
         <h3>Products:</h3>
         <div class="container">
           <?php
-            if(!isset($_SESSION['username'])){
-              $_SESSION['username'] = '';
-            } //not sure why I had to put that here but it fixed the problem with firefox saying it was undefined index
             include('includes/connect.php');
 
             $sql = "SELECT * FROM shops WHERE id = " . $_GET['id'];
