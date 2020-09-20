@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Your one-stop shop for all things Overhang">
   <meta name="author" content="MrCraftable">
-  <link rel="shortcut icon" href="favicon.ico?">
+  <link rel="shortcut icon" href="../favicon.ico?">
   <title>"Season 2 Quest · Overhang</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
