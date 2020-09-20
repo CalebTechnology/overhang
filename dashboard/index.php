@@ -68,12 +68,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="#">
-              <span class="fas fa-golf-ball"></span>
-              Golf Games<br>(coming soon)
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">
               <span class="fas fa-dollar-sign"></span>
               Advertisements<br>(coming soon)
             </a>

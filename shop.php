@@ -53,16 +53,17 @@
         <h3>Products:</h3>
         <div class="container">
           <?php
+            if(!isset($_SESSION['username'])){
+              $_SESSION['username'] = '';
+            } //not sure why I had to put that here but it fixed the problem with firefox saying it was undefined index
             include('includes/connect.php');
 
             $sql = "SELECT * FROM shops WHERE id = " . $_GET['id'];
             $result = $conn->query($sql);
             $row = $result->fetch();
-          ?>
-            <?php
             $shop_owner = $row['owner'];
             if($_SESSION['username'] == $shop_owner){
-              echo '<a href="dashboard/new_product.php?id=' . $_GET['id'] . '><button type="button" name="button" class="btn btn-lg btn-primary btn-block">New Product</button></a><br>';
+              echo '<a href="dashboard/new_product.php?id=' . $_GET['id'] . '"><button type="button" name="button" class="btn btn-lg btn-primary btn-block">New Product</button></a><br>' . PHP_EOL;
               echo "<div style='display:grid; grid-template-columns: 1fr 1fr 1fr'>" . PHP_EOL;
             } else{
             echo "<div style='display:grid; grid-template-columns: 1fr 1fr'>" . PHP_EOL;
@@ -81,13 +82,13 @@
                 ?>
           <?php
             include('includes/shops_connect.php');
-            $sql = "SELECT * FROM `" . $row['name'] . "`";
+            $sql = "SELECT * FROM `" . $row['name'] . "` ORDER BY `product_name`";
             foreach ($conn->query($sql) as $row) {
 
               echo "<div class='col border-right border-top'>" . PHP_EOL;
               echo "<br><h5>" . $row['product_name'] . PHP_EOL;
               if(!is_null($row['image'])){
-                echo "<img src='" . $row['image'] . "' class='img-fluid' style='max-height:5em'>";
+                echo "<img src='" . $row['image'] . "' class='img-fluid' style='max-width:100px'>";
               }
               echo "</h5></div>" . PHP_EOL;
 
@@ -107,6 +108,7 @@
          </div>
        </div>
      </div>
+     <br><br>
     </main>
     <?php include('footer.php') ?>
   </body>

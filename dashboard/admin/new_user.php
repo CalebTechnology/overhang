@@ -92,7 +92,7 @@
               <label><input type="checkbox" name="permissions[]" value="admin"> Admin</label>
             </div>
             <div class="checkbox">
-              <label><input type="checkbox" name="permissions[]" value="lumbo_land"> Lumbo Land</label>
+              <label><input type="checkbox" name="permissions[]" value="quest"> Quest</label>
             </div>
           </div>
           <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>

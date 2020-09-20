@@ -28,7 +28,7 @@
             }
           ?>
           <hr>
-          <a class='dropdown-item' href="../activities/lumbo_land.php"><span class="far fa-compass"></span> Season 2 Quest</a>
+          <a class='dropdown-item' href="../activities/s2_quest.php"><span class="far fa-compass"></span> Season 2 Quest</a>
         </div>
       </li>
       <li class="nav-item dropdown">

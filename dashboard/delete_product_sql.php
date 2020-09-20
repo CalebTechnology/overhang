@@ -13,7 +13,7 @@ try{
     include('../includes/shops_connect.php');
       $sql = 'DELETE FROM `' . $shop_name . '` WHERE id=' . $_GET['product_id'];
       $conn->query($sql);
-      header('Location: shops.php');
+      header('Location: ../shop.php?id=' . $_GET['shop_id']);
       echo "Shop deleted successfully!" . PHP_EOL;
     } catch (Exception $e) {
       echo "Error deleting product:" . $e->getMessage() . PHP_EOL;
