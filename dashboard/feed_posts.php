@@ -33,7 +33,6 @@
     <?php include('navbar_template.php') ?>
     <main>
       <div class="container">
-        <div class='col-12'>
         <div class="container">
           <br><br><br><br>
           <div class="row container">
