@@ -58,7 +58,7 @@
                  echo " (edited)";
                }
                echo "</h6>" . PHP_EOL;
-               echo "<img class='img-fluid' format='float:right; height:auto' src='../" . $row['image'] . "'>" . PHP_EOL;
+               echo "<div class='container'><img class='img-fluid' format='float:right; height:auto' src='../" . $row['image'] . "'></div>" . PHP_EOL;
                if(!is_null($row['comment'])){
                  echo "<p>" . $row['comment'] . "</p>" . PHP_EOL;
                }

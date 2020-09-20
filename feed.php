@@ -80,7 +80,7 @@
                }
                echo "</h6>" . PHP_EOL;
                if(!is_null($row['image'])){
-                 echo "<img class='img-fluid' src='" . $row['image'] . "'>" . PHP_EOL;
+                 echo "<div class='container'><img class='img-fluid' src='" . $row['image'] . "'></div>" . PHP_EOL;
                }
                echo "<p>" . $row['comment'] . "</p>" . PHP_EOL;
                echo "<ul class='nav nav-pills flex-column'><li class='nav-item'><a class='nav-link'href='#'>Back to Top</a></li></ul>" . PHP_EOL;

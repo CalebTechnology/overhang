@@ -1,0 +1,20 @@
+Building Materials
+Crafting, Repairing, Smelting, and Storing
+Creative, Commands, and Education Edition
+Dirt, Grass, Gravel, Sand, and Stones
+Dyes
+End
+Food, Plants, and Passive Mob Drops
+Hostile Mob Drops
+Mobs, Animals, and NPCs
+Music Discs
+Nether
+Ocean
+Ores, Ingots, and Gems
+Potions and Tipped Arrows
+Redstone
+Removed Features
+Shulker Boxes
+Spawn Eggs
+Tools, Weapons, and Armor
+Wood (Logs, Planks, Sticks, etc)
