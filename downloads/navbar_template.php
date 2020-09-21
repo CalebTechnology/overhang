@@ -60,7 +60,7 @@
             <a class="dropdown-item" href="../dashboard/"><span class="fas fa-list"></span> Dashboard</a>
             <div class="container">
               <a class="dropdown-item" href="../dashboard/feed_posts.php"><span class="fas fa-newspaper"></span> Feed Posts</a>
-              <a class="dropdown-item" href="dashboard/shops.php"><span class="fas fa-shopping-cart"></span> Shops</a>
+              <a class="dropdown-item" href="../dashboard/shops.php"><span class="fas fa-shopping-cart"></span> Shops</a>
               <a class="dropdown-item disabled" href="" disabled><span class="fas fa-dollar-sign"></span> Advertisements (coming soon)</a>
             </div>
             <hr>
